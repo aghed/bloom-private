@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Brandon Grotesque";
+    background: #f6f6f6;
+    /*height: 3000px;*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    -webkit-box-shadow:none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none !important;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+.backgtounf-item-color{
+    background: #f1f1ef;
+}
+.bc-letterspaceing{
+    letter-spacing: 4px;
+}
+.dropdown-menu a{
+    text-decoration: none;
+    color:#3b3b3b ;
+}
+
+
+
+
+.toggle-arrow span{
+
+}
+
+
+
+/*.item.active{*/
+    /*height: 525px;*/
+
+/*}*/
+
+.carousel-btn{
+    letter-spacing: 4px;
+    border-radius: 0px;
+    padding: 2px 14px;
+}
+
+
+
+.category-section{
+    padding: 24px;
+    padding-top: 200px;
+    letter-spacing: 3px;
+    padding-bottom: 64px;
+}
+.category-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.category-sectionwithitems{
+    margin-bottom: 120px;
+}
+
+
+
+.input-lg {
+    font-size: 11px;
+    font-family: "Brandon Grotesque";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
