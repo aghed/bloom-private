@@ -17,6 +17,7 @@
     #modal-product .modal-content{
         height: 400px;
         margin-top: 64px;
+
     }
     #modal-product .modal-header{
         height: 18%;
@@ -271,9 +272,10 @@
     }
 
     .modal-content{
-        height: 85vh !important;
+        /*height: 85vh !important;*/
         border-radius: 0px !important;
         margin-top: 10vh;
+        
     }
 
     #login-form input[type="text"],
@@ -318,13 +320,17 @@
     }
     #login-form a i {
         line-height: 1.3;
-        color: #eceff5
+        color: #eceff5;
 
     }
     .btn-facbook{
         margin-bottom:8px;
+        display:block;
     }
-
+    .text-center{
+        white-space: normal;
+        word-wrap:break-word;
+    }
     .pass-forgot{
         color:#ccc;
         background-color: transparent !important;
@@ -343,6 +349,7 @@
     .modal-body{
         padding: 15px 10%;
     }
+
     .sign-up{
         background: none !important;
         padding-left:4px !important;
@@ -396,7 +403,7 @@
             </div>
 
             {{--  Sign in Form  --}}
-            <div class="modal-body" id="sign-in-form">
+            <div class="modal-body clearfix" id="sign-in-form">
 
                 <div class="form-group modal-login-form">
                     @if(count($errors) > 0)
@@ -415,9 +422,10 @@
 									<input type="password" class="form-control" name="password" id="password" placeholder="Password">
 								</div>
 
-								<div class="form-group">
+								<div class="form-group ">
 									<a href="{{ route('password.request') }}" class="pass-forgot"> FORGOT PASSWORD </a>
 								</div>
+
 								<div class="form-group text-center btn-sign-in">
 									<a class="btn btn-defualt">
 										<span>Sign IN</span>
@@ -443,14 +451,14 @@
 								</div>
 
 							</form>
-
+                       <div class="clearfix"></div>         
                 </div>
 
             </div>
 
 
             {{--  Sign Up Form  --}}
-             <div class="modal-body" id="sign-up-form" hidden>
+             <div class="modal-body clearfix" id="sign-up-form" hidden>
 
                 <div class="form-group modal-login-form">
 
