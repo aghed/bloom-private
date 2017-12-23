@@ -330,7 +330,9 @@
     .text-center{
         white-space: normal;
         word-wrap:break-word;
+        position: relative;
     }
+
     .pass-forgot{
         color:#ccc;
         background-color: transparent !important;
@@ -385,7 +387,13 @@
         margin-top:15px;
         margin-bottom:15px;
     }
-    
+    /*to solve responsive button for facebook and google*/
+    @media only screen and (max-width: 1024px)
+    {
+        #login-form .btn{
+            height: 10%;
+        }
+    }
 </style>
 
 
