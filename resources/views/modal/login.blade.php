@@ -459,7 +459,7 @@
 								</div>
 
 							</form>
-                       <div class="clearfix"></div>         
+                           
                 </div>
 
             </div>
@@ -489,11 +489,17 @@
                             <a class="btn btn-defualt"><span>Sign UP</span></a>
                         </div>
                         <div class="form-group text-center btn-facbook">
-                            <a href="{{ url('/auth/facebook') }}" class="btn btn-defualt"><i class="fa fa-facebook pull-left"></i> <span class="pull-left">continue with facebook</span></a>
-                        </div>
+                                    <a href="{{ url('/auth/facebook') }}" class="btn btn-defualt">
+                                        <i class="fa fa-facebook text-center"></i>
+                                        <span class="text-center">continue with facebook</span>
+                                    </a>
+                                </div>
                         <div class="form-group text-center">
-                            <a href="{{ url('/auth/google') }}" class="btn btn-defualt button-google"><img class="pull-left" height="17px" width="auto" src="{{asset('assets/icons/google-icon.jpg')}}" > <span class="pull-left">continue with GOOGLE</span></a>
-                        </div>
+                                    <a href="{{ url('/auth/google') }}" class="btn btn-defualt button-google">
+                                        <img class="text-center" height="17px" width="auto" src="{{asset('assets/icons/google-icon.jpg')}}">
+                                        <span class="text-center">continue with GOOGLE</span>
+                                    </a>
+                                </div>
 
                          <div class="form-group text-center div-sign-up">
                             <span class="new-sign-up">A MEMBER ?<a class="sign-up" href="#sign-in-form"> SIGN IN</a></span>
