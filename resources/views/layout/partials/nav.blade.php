@@ -1,5 +1,5 @@
 <style>
-    @media screen and (min-width: 601px){
+    @media screen and (min-width: 280px){
 
     .up-header{
         background: black;
@@ -45,7 +45,7 @@
     }
     .navbar-nav li a{
         color:#3b3b3b !important;
-        font-size: 11px;
+            
         font-weight: 400;
     }
     .navbar-nav li a:hover{
